@@ -62,7 +62,7 @@ export default class EditFoodItem extends Component {
     })
   }
 
-  onChangeCalorie(e) {
+  onChangeCalories(e) {
     this.setState({
       calorie: e.target.value
     })
