@@ -129,7 +129,7 @@ export default class EditFoodItem extends Component {
               type="text" 
               className="form-control"
               value={this.state.calorie}
-              onChange={this.onChangeCalorie}
+              onChange={this.onChangeCalories}
               />
         </div>
         <div className="form-group">
